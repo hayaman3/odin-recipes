@@ -1,10 +1,22 @@
+body{
+    padding-top:30px;
+}
 .try{
     width:700px;
     margin:auto;
+    background-color: rgba(153, 153, 153, 0.15);
+}
+.try2{
+    width:700px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 .main{
- display: flex;
- font-size:12px;
+    display:flex;
+    font-size:12px;
+    /*font-family:'Times New Roman', Times, serif;*/
 }
 .first-half{
     flex:50%;
@@ -12,17 +24,15 @@
 .second-half{
     flex:50%;
     padding-left:10px;
-}
-.second-half > div{
-    padding:0px;
+    padding-right:10px;
 }
 img{
     max-width:100%;
+    min-height:100%;
 }
 
 h1{
     text-align: center;
-    font-family: "Droid Serif","Helvetica Neue","sans-serif";
     text-transform: uppercase;
 }
 .center {
@@ -34,6 +44,7 @@ h1{
 
 h5{
     margin:10px 0 0 0;
+    
     
 }
 h6{
