@@ -6,17 +6,10 @@ body{
     margin:auto;
     background-color: rgba(153, 153, 153, 0.15);
 }
-.try2{
-    width:700px;
-    margin:auto;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
 .main{
     display:flex;
     font-size:12px;
-    /*font-family:'Times New Roman', Times, serif;*/
+    font-family:Helvetica, Times, serif;
 }
 .first-half{
     flex:50%;
@@ -44,13 +37,27 @@ h1{
 
 h5{
     margin:10px 0 0 0;
-    
-    
 }
 h6{
     font-style: italic;
     font-weight: 100;
     margin:0px;
+}
+h3 > span{
+    font-size:10px;
+    font-weight:normal;
+}
+ul,ol{
+    font-size:11px;
+    padding-top:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    margin:2px;
+}
+p{
+    padding:0px;
+    margin:5px;
 }
 .credit{
     font-size: 12px;
@@ -69,4 +76,11 @@ a:visited {
 a:hover {
     color: rgba(128, 128, 128, 0.726);
     text-decoration: none;
+}
+
+.ingredients{
+    display:flex;
+}
+.half{
+    flex:50%
 }
